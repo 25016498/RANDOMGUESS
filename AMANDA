@@ -1,0 +1,16 @@
+import javax.swing.randomguess;
+
+public class randomguess
+{
+ public static void MAIN(string[]args)
+    {
+        global::System.Object value = JOptionPane.showMassageDialog(null,"guess a number from 1-10.") ;
+        
+        int randomNumber = 1 + (int)(Math.random()*10);
+
+        global::System.Object value1 = JOptionPane.showMassageDialog(null,"The number is" + randomNumber);
+
+        global::System.Object value2 = System.exit(0);
+    } 
+}
+
